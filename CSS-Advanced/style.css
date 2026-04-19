@@ -1,0 +1,64 @@
+/* Mobile-First Base Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background: #555;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    height: 495 px;
+}
+
+.card {
+    background: lightblue;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+}

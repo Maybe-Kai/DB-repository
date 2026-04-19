@@ -1,0 +1,33 @@
+Client (Browser)
+The client is the application the user uses to access 
+the system, such as Google Chrome or Mozilla Firefox.
+It sends requests to the server and displays the responses.
+
+
+Frontend (UI Layer)
+The frontend runs in the browser using HTML, CSS, and JavaScript.
+It is responsible for showing content and handling user actions like clicks and form inputs.
+
+
+Backend (Server)
+The backend processes requests coming from the frontend.
+It handles the application logic, manages data, and sends the appropriate response back.
+
+
+Database (MongoDB – conceptual)
+The database stores important data like user information. For example,
+MongoDB is used to save, retrieve, and manage data through the backend.
+
+Client (Browser)
+↓
+Frontend (UI Layer)
+↓
+Backend (Server)
+↓
+Database (MongoDB)
+↑
+Backend (Server)
+↑
+Frontend (UI Layer)
+↑
+Client (Browser)

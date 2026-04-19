@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+button, input, select {
+    margin: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background: lightblue;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 2px solid blue;
+}

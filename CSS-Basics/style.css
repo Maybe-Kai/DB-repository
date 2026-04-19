@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header & Footer */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Box Model */
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 10px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Styling */
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
